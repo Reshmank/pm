@@ -1,0 +1,326 @@
+.f-size-8 { font-size: 8px !important;}
+.f-size-9 { font-size: 9px !important;}
+.f-size-10 { font-size: 10px !important;}
+.f-size-11 { font-size: 11px !important;}
+.f-size-12 { font-size: 12px !important;}
+.f-size-13 { font-size: 13px !important;}
+.f-size-14 { font-size: 14px !important;}
+.f-size-15 { font-size: 15px !important;}
+.f-size-16 { font-size: 16px !important;}
+.f-size-17 { font-size: 17px !important;}
+.f-size-18 { font-size: 18px !important;}
+.f-size-19 { font-size: 19px !important;}
+.f-size-20 { font-size: 20px !important;}
+.f-size-21 { font-size: 21px !important;}
+.f-size-22 { font-size: 22px !important;}
+.f-size-23 { font-size: 23px !important;}
+.f-size-24 { font-size: 24px !important;}
+.f-size-25 { font-size: 25px !important;}
+
+/* 11/09/2020 */
+.nav-tabs {
+    border-bottom: 1px solid #dedcfb;
+}
+.nav-tabs .nav-item .nav-link {
+    color: #ff5f00; }
+.nav-tabs .nav-item .nav-link.active {
+    color: #000; }
+
+.tab-content > .tab-pane {
+    padding: 10px 0;
+    line-height: 24px; }
+
+.tab-bordered .tab-pane {
+    padding: 15px;
+    border: 1px solid #ededed;
+    margin-top: -1px; }
+
+/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #ff5f00; }*/
+.nav-pills .nav-item .nav-link {
+    /*color: #f8730e;*/
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+.nav-pills .nav-item .nav-link:hover {
+    background-color: #f2f9fc; }
+/*.nav-pills .nav-item .nav-link.active {
+     box-shadow: 0 2px 6px #84badc; 
+    color: #fff;
+    background-color: #f8730e; }*/
+.nav-pills .nav-item .nav-link .badge {
+    padding: 5px 8px;
+    margin-left: 5px; }
+
+.nav-pills .nav-link.active {
+    pointer-events: none;
+}
+
+.nav .nav-item .nav-link .ion, .nav .nav-item .nav-link .fas, .nav .nav-item .nav-link .far, .nav .nav-item .nav-link .fab, .nav .nav-item .nav-link .fal {
+    margin-right: 3px;
+    font-size: 12px; 
+}
+
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* data-table */
+.data-hw .dt-buttons {
+    float: right;
+    margin-left: 15px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    pointer-events: none;
+}
+.dataTables_wrapper .dataTables_paginate .page-item.disabled .page-link {
+    background: none;
+}
+
+
+/* file upload */
+
+
+#image-preview {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #ecf0f1;
+  border: 1px solid #e6e2e2;
+}
+#image-preview input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 78px;
+    height: 28px;
+    font-size: 9px;
+    line-height: 30px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.position-inherit{
+    position:inherit;
+}
+
+.min-height{
+    min-height: 60vh;
+}
+
+.data-hw .container-fluid  {
+    padding: 0 !important;
+}
+/* .app-sidebar {
+    width: 290px;
+} */
+
+
+
+/*sidemenu*/
+.side-menu .side-menu__icon {
+    font-size: 19px;
+    line-height: 24px;
+}
+.leftmenu-color .app-sidebar .side-menu__item.active .side-menu__icon {
+    color: #ED1C24 !important;    
+}
+.leftmenu-color .app-sidebar .side-menu__item.active .side-menu__label {
+    color: #ED1C24 !important;    
+}
+.side-menu__item .angle {
+    margin-left: 4px;
+}
+.slide.is-expanded .side-menu__label, 
+.slide.is-expanded .angle {
+    font-weight: 500;
+}
+.side-menu__item.active .side-menu__label {
+    font-weight: 500;
+}
+
+.slide-item {
+    padding-left: 40px;
+}
+.slide-item.active {
+ color: #ED1C24 !important;  
+}
+
+
+  /* 3.10 Pagination */
+  .page-item .page-link {
+    color: #ff5f00;
+    border-radius: 3px;
+    margin: 0 3px; }
+  .page-item.active .page-link {
+    background-color: #ff5f00;
+    border-color: #ff5f00; 
+  color:#fff;
+  }
+  .page-item.disabled .page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    color: #ff5f00;
+    opacity: .6; }
+  
+  .page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    font-weight: 600; }
+  .page-link:hover {
+    background-color: #ff5f00;
+    color: #fff;
+    border-color: transparent; }
+  .page-link:focus {
+    box-shadow: none; 
+  }
+
+
+
+  /* datatable */
+
+.table.table-bordered.dataTable td, .table.table-bordered.dataTable th {border-color: inherit;}
+
+/* This fixes the vertical aligning of the sorting icon. */
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  background-position: 100% 10px;
+}
+
+button:focus, select:focus, input:focus {outline: none;}
+
+div.dt-buttons {
+  position: relative;
+  float: right;
+  margin-bottom: 10px;
+}
+.dataTables_filter label {position: relative;}
+.dataTables_wrapper .dataTables_filter input {
+  margin-left: 0.5em;
+  display: inline-block;
+  width: auto;
+  border: 1px solid #e4e6fc;
+  padding: 10px 45px 10px 15px;
+  background-color: #fdfdff;
+  border-radius: 30px !important;
+  height: 31px;
+  font-size: 13px;
+}
+.dataTables_wrapper .dataTables_filter input:focus {border-color: #23a8e1; background: #fff;}
+
+.dataTables_filter label::after{content: "\f4a4"; font-family: "Ionicons"; position: absolute; right: 0; top: 0;  -webkit-font-smoothing: antialiased; 
+  font-size: 20px;
+  line-height: 32px;
+background: #ff5f00; color: #fff; width: 40px; height: 100%; text-align: center;
+border-radius: 0 30px 30px 0}
+
+.dataTables_length {float: left; margin-top: 5px;}
+div.dataTables_wrapper div.dataTables_length select {
+  width: auto;
+  display: inline-block;
+  height: 37px;
+  border-radius: 5px !important;
+}
+.dataTables_wrapper {
+  padding: 0px 1px !important;
+  
+}
+.dt-buttons .btn{
+  color:#fff !important;
+  background-color: #191d21 !important;
+  border: 1px solid #191d21;
+  height: 31px;
+  padding: 2px 10px;
+  border-radius: .25rem !important;
+}
+.dt-buttons .btn:hover {background: black !important;}
+.dt-buttons.btn-group .btn{margin-left:3px;}
+.dt-buttons.btn-group .btn:first-child{margin-left: 15px;}
+
+
+
+
+.dataTable{
+  width: 100% !important;
+    margin-bottom: 12px !important;
+}
+
+.dt-button-collection.dropdown-menu {min-width:150px; width: auto; right:0; padding: 0; border-radius: .25rem; box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); }
+.dt-button-collection.dropdown-menu .dt-button{border-bottom: 1px solid #e8f0fe; background: #f5f5f5 !important; color:#a7a7a7 !important;
+  outline: none !important; padding: 10px 15px;}
+  .dt-button-collection.dropdown-menu .dt-button:hover {color: #6c757d!important;} 
+  .dt-button-collection.dropdown-menu .dt-button.active, 
+  .dt-button-collection.dropdown-menu .dt-button.active:hover {background: #fff !important; color: #6c757d!important;}
+
+
+
+.select2-dropdown {box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);}
+.select2-results__option:last-child {border-radius: 0 0 .25rem .25rem;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected]
+{background-color: #e8f0fe; color: #29282a;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {color: #29282a;}
+.select2-type-1 .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1; 
+  border-radius: 0 .25rem .25rem 0;
+}
+
+/* labels */
+.success_label{
+  color: #09e644;
+}
+
+.sent_label{
+  color: #efa70c;
+}
+
+.timeSlots{
+  margin-right:20px;
+}
+.notification .noti-each{
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+.notification .noti-each img{
+    width: 50px;
+}
+.notification .noti-each p{
+    font-weight: 500;
+}
+.notification .noti-each .time{
+    font-weight: 300;
+    color: #999;
+    font-size: 13px;
+}
+
+.send_btn{
+  margin-left: 10px;
+}
+
+sup{
+  color: red;
+}

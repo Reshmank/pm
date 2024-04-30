@@ -1,0 +1,74 @@
+/* color radio start*/
+
+.color-radios {
+    display: flex;
+  }
+  .color-radios .item {
+    display: flex;
+    /* width: 100%; */
+  }
+  .color-radios input[type=radio] {
+    display: none;
+  }
+  .color-radios input[type=radio] + label {
+    color: #fff;
+    font-size: 14px;
+  }
+  .color-radios input[type=radio] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 44px;
+  }
+  .color-radios input[type=radio] + label span .color-icon,
+  .color-radios input[type=radio] + label span img {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .color-radios input[type=radio]#color-1 + label span {
+    background-color: #6D44FD;
+  }
+  .color-radios input[type=radio]#color-2 + label span {
+    background-color: #F16211;
+  }
+  .color-radios input[type=radio]#color-3 + label span {
+    background-color: #01A5E9;
+  }
+  .color-radios input[type=radio]#color-4 + label span {
+    background-color: #94CA3C;
+  }
+  .color-radios input[type=radio]#color-5 + label span {
+    background-color: #F7B92E;
+  }
+  .color-radios input[type=radio]#color-6 + label span {
+    background-color: #E855A8;
+  }
+  .color-radios input[type=radio]:checked + label span .color-icon, 
+  .color-radios input[type=radio]:checked + label span img {
+    opacity: 1;
+  }
+  /* color radio stop */
+
+  /* select2 */
+  .select2-container--default .select2-selection--single .select2-selection__rendered  {
+text-overflow: ellipsis;
+display: block;
+}
+
+.badge-group .badge {
+  margin: 0 6px 6px 0;
+}
+
+
+    .error{
+        color: red;
+    }
